@@ -68,10 +68,10 @@ export default function Resume() {
                      <div className='row'>
 
                     <div class="col-sm-10 ">
-                        <h1>Education Quality</h1>
+                        <h1>Education Qualification</h1>
                         <br />
                         <div class="card-resume">
-                            <div class="card-header"><h3> Batchler of Science</h3>
+                            <div class="card-header"><h3> Masters of Science</h3>
                             </div>
 
                             <span>Shiv Chhatrapati college of Aurangabad</span>
@@ -79,7 +79,7 @@ export default function Resume() {
 
                             <hr />
                             <div class="card-body pt-3 ">
-                                The Bachelor of Science (B.Sc.) degree is mainly awarded to students in the areas of Natural Sciences, Business & Management, Engineering Sciences, Mathematics, and Informatics. Universities like Cambridge and Oxford offer B.A. degrees for all their undergraduate studies, including research and scientific programmes.
+                                The Masters of Science (M.Sc) degree is mainly awarded to students in the areas of Natural Sciences, Business & Management, Engineering Sciences, Mathematics, and Informatics. Universities like Cambridge and Oxford offer B.A. degrees for all their undergraduate studies, including research and scientific programmes.
                                 <br />
                             </div>
                         </div>
