@@ -115,7 +115,7 @@ export default function Portfolio() {
         component="img"
         alt="green iguana"
         height="140"
-        image="src\pages\Screenshot (21).png"
+        image="src\pages\Screenshot (13).png"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -151,7 +151,7 @@ export default function Portfolio() {
       </CardContent>
      
         <Button size="small">Share</Button>
-        <a href="https://github.com/PallaviGore21/shop-list-project" size="small">Learn More</a>
+        <a href="https://github.com/PallaviGore21/olx-clone" size="small">Learn More</a>
     </Card> 
     </Col>
 

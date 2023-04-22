@@ -13,7 +13,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link} from 'react-router-dom'
 
-const pages = ['Home', 'About', 'Resume',"Portfolio", "contact"];
+const pages = ['About', 'Resume',"Portfolio", "contact"];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Mynavbar() {
@@ -43,8 +43,8 @@ function Mynavbar() {
           <Typography
             variant="h6"
             noWrap
+            href="/"
             componeHoment="a"
-            href="/Home"
             sx={{
               mr: 1,
               display: { xs: 'none', md: 'flex' },
@@ -55,7 +55,7 @@ function Mynavbar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Home
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -90,7 +90,7 @@ function Mynavbar() {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
-                  <Link style={{textdecoration:"none", color:"white"}} to={`/${page}`}>
+                  <Link className="nav-link" style={{textdecoration:"none", color:"white"}} to={`/${page}`}>
                 {page}
                </Link>
                   </Typography>
@@ -103,7 +103,7 @@ function Mynavbar() {
             variant="h5"
             noWrap
             component="a"
-            href=""
+            href="/"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },

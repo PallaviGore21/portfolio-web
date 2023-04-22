@@ -14,9 +14,10 @@ import Paper from '@mui/material/Paper';
 export default function Resume() {
     const now = 98;
     const now1 = 80;
-    const now2 = 78;
+    const now2 = 85;
     const now3 = 95;
-    const now4 = 70;
+    const now4 = 80;
+    const now5 = 80;
 
 
     return <>
@@ -40,13 +41,13 @@ export default function Resume() {
                             <div class="card-header"><h3>Skillhub IT solution pvt. ltd.</h3>
                             </div>
 
-                            <span>internship (march-august)
+                            <span>internship (mar-2022 to mar-2023)
                             </span>
                             <br />
 
                             <hr />
                             <div class="card-body pt-3 ">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, sapiente! Id necessitatibus magni veniam nobis asperiores a vel, laborum cupiditate blanditiis sequi tenetur beatae facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aspernatur dolore! Dolor vel tempora corrupti?
+                            Developed web applications Used Frontentechnology such as : HTML, CSS, TAILWINDMATERIAL-UI, BOOTSTRAP, JAVASCRIPT, REACTREDUX, REDUX-TOOLKIT,RTKQUERY, FIREBASE. Participated in team-building activities tenhance working experienc. Developed and implemented performancimprovement strategies and plans to promotcontinuous improvement
                                 <br />
                             </div>
                         </div>
@@ -111,6 +112,9 @@ export default function Resume() {
                             <br />
                             <div>REACT JS</div>
                             <ProgressBar now={now4} label={`${now4}%`} />
+                            <br />
+                            <div>REDUX</div>
+                            <ProgressBar now={now5} label={`${now5}%`} />
                             <br />
                         </div>
                     </div>
