@@ -71,7 +71,7 @@ export default function Resume() {
                         <h1>Education Qualification</h1>
                         <br />
                         <div class="card-resume">
-                            <div class="card-header"><h3> Masters of Science(Nov-2022)</h3>
+                            <div class="card-header"><h5> Masters of Science(Nov-2022)</h5>
                             </div>
 
                             <span>Shiv Chhatrapati college of Aurangabad</span>
