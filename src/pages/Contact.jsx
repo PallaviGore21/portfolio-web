@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 
 const Contact = () => {
     let linkendProfile="https://www.linkedin.com/in/pallavi-gore-47a7251a1/"
+    let githubProfile="https://github.com/PallaviGore21"
   return <>
   <div className='text-light pt-5'>
              <div className='row'>
@@ -14,7 +15,7 @@ const Contact = () => {
                          referrerpolicy="no-referrer-when-downgrade"></iframe>
                  </div>
                  <div className='col-sm-2 text-primary'>
-                     <h3>Address :</h3>
+                     <h3 className='text-dark'>Address :</h3>
                      <br />
                      <div>Pisadevi Road</div>
                      <div>Harsul, Aurangabad</div>
@@ -23,14 +24,15 @@ const Contact = () => {
                      <br />
                      <div class="contact">
                          {/* <h3><i class="bi bi-instagram"></i></h3> */}
-                         <h3><a href={linkendProfile}><i  class="bi bi-linkedin"></i></a></h3>
-                         <h3><i class="bi bi-twitter"></i></h3>
-                         <h3><i class="bi bi-github"></i></h3>
+                         <h3><a href={linkendProfile}><i class="bi bi-linkedin"></i></a></h3>
+                         <h3><a href={githubProfile}><i class="bi bi-github"></i></a></h3>
+                         <h3><a href={githubProfile}><i class="bi bi-twitter"></i></a></h3>
+                         
                      </div>
                  </div>
 
                  <div className='col-sm-4 text-primary'>
-                     <h1>Get In Touch</h1>
+                     <h1 className='text-dark'>Get In Touch</h1>
                      <div class="container pt-3">
                          <div className='row'>
                              <div className='col-sm-6'>
