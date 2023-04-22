@@ -86,7 +86,7 @@ export default function Portfolio() {
     </Row>
 
     <Row  className='m-5'>
-      <Col>
+      {/* <Col>
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -107,7 +107,7 @@ export default function Portfolio() {
         <Button size="small">Share</Button>
         <Button size="small">Learn More</Button>
     </Card>
-    </Col>
+    </Col> */}
 
     <Col>
     <Card sx={{ maxWidth: 345 }}>
