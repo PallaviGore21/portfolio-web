@@ -20,7 +20,7 @@ export default function Portfolio() {
         component="img"
         alt="green iguana"
         height="140"
-        image="src\pages\Screenshot (21).png"
+        image="src\pages\public\static\images\Screenshot (21).png"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -43,7 +43,7 @@ export default function Portfolio() {
         component="img"
         alt="green iguana"
         height="140"
-        image="src\pages\Screenshot (19).png"
+        image="src\pages\public\static\images\Screenshot (19).png"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -66,7 +66,7 @@ export default function Portfolio() {
         component="img"
         alt="green iguana"
         height="140"
-        image="src\pages\Screenshot (23).png"
+        image="src\pages\public\static\images\Screenshot (23).png"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -115,7 +115,7 @@ export default function Portfolio() {
         component="img"
         alt="green iguana"
         height="140"
-        image="src\pages\Screenshot (13).png"
+        image="src\pages\public\static\images\Screenshot (13).png"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -138,7 +138,7 @@ export default function Portfolio() {
         component="img"
         alt="green iguana"
         height="140"
-        image="src\pages\Screenshot (17).png"
+        image="src\pages\public\static\images\Screenshot (17).png"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
