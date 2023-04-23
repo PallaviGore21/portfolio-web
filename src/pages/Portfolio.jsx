@@ -27,8 +27,10 @@ export default function Portfolio() {
           TIC TAC TOE
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        Players take turns putting their marks in empty squares.
+        3. The first player to get 3 of her marks in a row is the winner. Like a
+        XO-game , the count of win , loss,drawMatch will be added of two
+        players.
         </Typography>
       </CardContent>
      
@@ -50,8 +52,8 @@ export default function Portfolio() {
           Whether application
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        Technology Used : HTML,CSS, Bootstrap, Javascript, React
+        Description : It is the React-based Whether-application that shows the temperature,Pressure,Humidity, Min and Max of temperature as per the selection of city
         </Typography>
       </CardContent>
      
@@ -73,8 +75,8 @@ export default function Portfolio() {
           Figma Design(UI)
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        Technology Used : HTML,CSS, Bootstrap
+        Description : UI-task done by using HTML, CSS and Bootstrap
         </Typography>
       </CardContent>
      
@@ -122,8 +124,8 @@ export default function Portfolio() {
           ShopList App
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        HTML,CSS,Bootstrap,Javascript,React,Redux
+Description : user can post, view, update, delete its shops, & can search the shops on the basis of city and category
         </Typography>
       </CardContent>
      
@@ -145,8 +147,9 @@ export default function Portfolio() {
           Olx Clone
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        HTML,CSS,Bootstrap,Javascript,React,Redux
+Description : user can post, view, update, delete its product admin can
+view all users  able to block and unBlock them.user can view its own profile
         </Typography>
       </CardContent>
      

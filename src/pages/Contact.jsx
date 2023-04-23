@@ -26,7 +26,7 @@ const Contact = () => {
                          {/* <h3><i class="bi bi-instagram"></i></h3> */}
                          <h3><a href={linkendProfile}><i class="bi bi-linkedin"></i></a></h3>
                          <h3><a href={githubProfile}><i class="bi bi-github"></i></a></h3>
-                         <h3><a href={githubProfile}><i class="bi bi-twitter"></i></a></h3>
+                         <h3><a><i class="bi bi-twitter"></i></a></h3>
                          
                      </div>
                  </div>

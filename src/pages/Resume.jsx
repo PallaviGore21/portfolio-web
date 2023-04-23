@@ -94,8 +94,8 @@ export default function Resume() {
                     
                 <br /><br />
                 <div class="row">
-                    <div class="col-sm-6">
-                        <div className='card '>
+                    <div class="col-sm-6 ">
+                        <div className='card mt-3 '>
                             <h3>Feature</h3>
                             <h2>Development skill</h2>
                             <div>HTML</div>
