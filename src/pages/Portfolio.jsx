@@ -109,7 +109,7 @@ export default function Portfolio() {
     </Card>
     </Col> */}
 
-    <Col>
+    <Col className='d-flex justify-content-evenly'>
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"

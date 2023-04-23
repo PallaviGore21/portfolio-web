@@ -36,7 +36,7 @@ function Mynavbar() {
   };
 
   return (
-    <AppBar position="relative" sx={{zIndex:9999}}>
+    <AppBar position="relative" sx={{zIndex:9999}} className='nav-link'>
       <Container maxWidth="xxl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -90,7 +90,7 @@ function Mynavbar() {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
-                  <Link className="nav-link" style={{textdecoration:"none", color:"white"}} to={`/${page}`}>
+                  <Link style={{textdecoration:"inherit", color:"white"}} to={`/${page}`}>
                 {page}
                </Link>
                   </Typography>
