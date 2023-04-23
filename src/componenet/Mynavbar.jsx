@@ -133,7 +133,7 @@ function Mynavbar() {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              <IconButton  sx={{ p: 0 }}>
                 <img alt="Remy Sharp" src="https://www.freepnglogos.com/uploads/logo-internet-png/logo-internet-index-forum-image-17.png" height={80} width={100}   />
               </IconButton>
             </Tooltip>
