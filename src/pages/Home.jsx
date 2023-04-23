@@ -6,7 +6,7 @@ import { Button } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
-// import pallavigoreCV from './../public/assets'
+// import ReactPDF from '@react-pdf/renderer';
 
 const ColorButton = styled(Button)(({ theme }) => ({
   color: theme.palette.getContrastText(purple[500]),
@@ -23,7 +23,8 @@ const Home = () => {
       },
       [],
     )
-    
+  //  const nil = ReactPDF.render(<Home />, `${__dirname}/src\public\assets\pallavigoreCV.pdf`);
+
   return<div>
 
 <div className='row bg-primary vh-100' style={{zIndex:5000}}  >
@@ -49,6 +50,7 @@ const Home = () => {
                                      style={{ fontSize: '4rem' }}
                                  />
                                  <h5 id='third '>From Aurangabad Maharastra</h5>
+
                                  <a href="src\public\assets\pallavigoreCV.pdf" download>
               
                                  <button  style={{zIndex:9999}}  className='mt-4 alert alert-success'>Download CV <FileDownloadOutlinedIcon/></button>
