@@ -40,8 +40,8 @@ import Particles from 'react-tsparticles'
             }
         }} />
 
-
-  <div class="container mt-5">
+{/* <div className='bg-primary'> */}
+  <div class="container mt-5 ">
              {/* <div className='https://www.beyondintranet.com/images/webinar/Upcoming-Webinar.png'> */}
                  {/* <div className='container pt-2'>
                      <h1 className=' text-primary d-flex justify-content-between'>
@@ -50,7 +50,7 @@ import Particles from 'react-tsparticles'
                  </div> */}
                  <div className='row'>
                      <div className='col-sm-6'>
-                         <img src="https://www.beyondintranet.com/images/webinar/Upcoming-Webinar.png" alt="" height={400} />
+                         <img id='img' src="https://www.beyondintranet.com/images/webinar/Upcoming-Webinar.png" alt="" height={400} />
                      </div>
                      <div className='col-sm-6 text-white'>
                      {/* <h5 className='bg-primary'>I'm Web Developer</h5>

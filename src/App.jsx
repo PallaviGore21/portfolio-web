@@ -7,9 +7,11 @@ import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import Resume from './pages/Resume'
 
+
 const App = () => {
   return<>
   <BrowserRouter>
+
   <Mynavbar/>
   <Routes>
     <Route path='/' element={<Home/>}></Route>

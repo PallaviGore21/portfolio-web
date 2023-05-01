@@ -8,14 +8,14 @@ import Typography from '@mui/material/Typography';
 import { Container } from '@mui/system';
 import {  Row,Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-
+import './script.js'
 
 export default function Portfolio() {
   return <>
     <Container>
     <Row  className='m-5'>
       <Col>
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className='card1' sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         alt="green iguana"

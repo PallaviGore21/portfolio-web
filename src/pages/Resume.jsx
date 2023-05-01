@@ -12,16 +12,11 @@ import { Grid } from '@mui/material';
 import Paper from '@mui/material/Paper';
 
 export default function Resume() {
-    const now = 98;
-    const now1 = 80;
-    const now2 = 85;
-    const now3 = 95;
-    const now4 = 80;
-    const now5 = 80;
+ 
 
 
     return <>
-
+{/* <div className='container'> */}
  <Timeline position="alternate">
       <TimelineItem>
      
@@ -90,42 +85,12 @@ export default function Resume() {
       </TimelineItem>
     </Timeline>
       
-            <div class="container">
-                    
-                <br /><br />
-                <div class="row">
-                    <div class="col-sm-6 ">
-                        <div className='card mt-3 '>
-                            <h3>Feature</h3>
-                            <h2>Development skill</h2>
-                            <div>HTML</div>
-                            <ProgressBar className='' now={now} label={`${now}%`} />
-                            <br />
-                            <div>CSS</div>
-                            <ProgressBar now={now1} label={`${now1}%`} />
-                            <br />
-                            <div>JAVASCRIPT</div>
-                            <ProgressBar now={now2} label={`${now2}%`} />
-                            <br />
-                            <div>BOOTSTRAP</div>
-                            <ProgressBar now={now3} label={`${now3}%`} />
-                            <br />
-                            <div>REACT JS</div>
-                            <ProgressBar now={now4} label={`${now4}%`} />
-                            <br />
-                            <div>REDUX</div>
-                            <ProgressBar now={now5} label={`${now5}%`} />
-                            <br />
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+       
 
 
 
 
-
+    {/* </div> */}
 
             
 
